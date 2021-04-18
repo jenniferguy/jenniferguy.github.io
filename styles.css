@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(245, 245, 245);}
+    background-color: rgb(189, 186, 186);}
     *{
         margin: 0;
         padding: 0;
@@ -28,3 +28,9 @@ body{
     img{
         border-radius: 120%;
     }
+    .me{
+        outline: 1px solid red;
+    height: 100vh;
+    display:flex;
+flex-direction: column;
+justify-content: center;;}
