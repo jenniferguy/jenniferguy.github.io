@@ -1,5 +1,5 @@
 body{
-    background-color:blue;}
+    background-color: white;}
     *{
         margin: 0;
         padding: 0;
@@ -13,62 +13,72 @@ body{
     }
     
     
+    
     html{
         text-align: center;
     }
-    li{
-       
-        display: inline;
-        padding: 0px;
-        border-bottom-width: 0px;
-       background-color:blue;
-      padding: 50px;
+    .ul{
+       margin: 0;
+       padding: 0px;
+      list-style: none;
+     
+      }
+
+      li{
+        display:inline-block;
+        margin-right: 120px;
+        padding: 0;
+        background-color: blue; 
+       text-align: center;
       
+      }
+
       
-       
-    }
    .menu_list{
-        margin: 21px 646px 21px 646px;
-        text-align:right center;
-        padding-top: 5%;
-        display:inline;
-        padding: 10px 40px;
+        margin-left: 0px;
+       position: fixed;
+       text-align: center;
+      
+        outline: 3px solid white;
+       
+        width: 1475px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 25px;
         font-style: oblique;
         border-bottom-style: solid;
         font-weight: bold;
-        padding: 0%;
-        color:yellow
-      
-       }
+        
+        color:yellow;
+        background-color: blue;
+        }
+
+        .menu_list a:hover{
+         color: rgb(12, 10, 10);
+        }
   
    
-      .menu_list a:hover{
-        background-color: rgb(190, 190, 186);
-        position: fixed;
-    }
+      
+    
 
        img{
        border: radius 100%;
       border-color: white;
      border-width: 200%;
        box-shadow: white;
+    
    }
     .me{
-        outline: 5px solid yellow;
-        outline-width: 5%;
         
-       padding-top: 50%;
-        height: 75vh;
+       
+        height: 95vh;
         min-height: 400px;;
         display:flex;
         flex-direction: column;
         justify-content: center;
         border: 0;
-        padding-top: 0%;
+       
         background-color: rgb(190, 190, 186);
-       padding: 10px;
+      
        color: white;
        
     }
@@ -85,9 +95,11 @@ body{
     font-style: inherit;
     background-image: url(pictures/background.jpg);
    
+    
+    
 }
    .about_me{
-       background-color:rgb(190, 190, 186) ;
+       background-color:whitesmoke ;
       
       border-style: solid;
       
@@ -112,7 +124,7 @@ body{
       line-height: 35px ;
       
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-      background-color: rgb(190, 190, 186);
+      background-color: whitesmoke;
       height: 75%;
       text-align:center;
       width: 75%;
@@ -134,7 +146,7 @@ body{
       }
       .about_me h3{
           color:red;
-          font-size: 16px;
+          font-size: 12px;
           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
         padding-right: 20%;
@@ -149,20 +161,30 @@ body{
    
    
 }
+
+.about_me a{
+    text-decoration: underline blue;
+    color: blue
+}
        
 .projects{
     background-color: burlywood;
    display: inline-table;
-   width: 75%;
+   width: 70%;
+  padding: 40px;
+   
    
 }
  .projects h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding: 1%;
     line-height: 10px;
    background-color: rgb(234, 242, 243);
     color: yellow;
     font-weight: bolder;
+    text-decoration: underline yellow;
+   
+   
  }     
 
 .projects h1{
@@ -171,7 +193,9 @@ body{
       border-style: solid;
     padding: 5%;
   font-size: 40px;
-    color:yellow;
+  
+  
+   
     text-align: center;
     outline-color: yellow;
     outline: 5px;
@@ -179,29 +203,41 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
     .projects p{
-        padding: 10%;
+        padding: 3%;
         line-height: 100%;
         text-align: center;
         font-family: monospace;
         font-size: 16px;
+       
     }
    
-.item_1 .item_2 .item_3 .item_4 .item_5 ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-   float: right;
-    font-weight: bold;
+
+   .projects img{
+   height: 30%;
 }
 
    
 
 
    .contact{
-       color:yellow;
+       color: black;
        text-align: center;
-      
-     padding: 5%;
-       
+       box-decoration-break: slice;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding: 0%;
+      background-color:  rgb(190,190,186); 
+      font-style: oblique ;
+      outline-color:yellow;
+      outline-style:double;
+      outline-width: 5px;
+   }
+   .contact address{
+       line-height: 150%;
+       font-size: 20px;
+   }
+   .contact a{
+       color: rgb(18, 76, 235);
+       text-decoration: underline rgb(18, 76, 235);
+       size: 16px;
        
    }
